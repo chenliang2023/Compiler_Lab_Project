@@ -1,0 +1,16 @@
+int g1 = 2;
+int g2 = 3;
+
+int main() {
+  int i = 0;
+  int a = 0, b = 1;
+  int t = 0, t1 = 0, t2 = 1, t3 = 0, t4 = 27;
+  while (i < 15) {
+    t = a + b;
+    a = b;
+    b = t;
+    i = i + 1;
+  }
+
+  return a + b;
+}

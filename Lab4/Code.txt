@@ -1,0 +1,3 @@
+java -jar .\lib\antlr-4.9.1-complete.jar -listener -visitor -long-messages.\src\SysYLexer.g4 .\src\SysYParser.g4
+git add .
+git commit -m "Update files for lab1"

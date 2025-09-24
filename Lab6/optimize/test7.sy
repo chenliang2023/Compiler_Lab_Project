@@ -1,0 +1,115 @@
+int z1  = 10;
+int z2  = 10;
+int z3  = 10;
+int z4  = 10;
+int z5  = 10;
+int z6  = 10;
+int z7  = 10;
+int z8  = 10;
+int z9  = 10;
+int z10 = 10;
+int z11 = 10;
+int z12 = 10;
+int z13 = 10;
+int z14 = 10;
+int z15 = 10;
+int z16 = 10;
+int z17 = 10;
+int z18 = 10;
+int z19 = 10;
+int z20 = 10;
+int z21 = 10;
+int z22 = 10;
+int z23 = 10;
+int z24 = 10;
+int z25 = 10;
+int z26 = 10;
+int z27 = 10;
+int z28 = 10;
+int z29 = 10;
+int z30 = 10;
+int z31 = 10;
+int z32 = 10;
+
+int main() {
+  int i = 0;
+  int max = 5;
+  int count = 0;
+
+  int y1  = z1  / 2;
+  int y2  = z2  / 2;
+  int y3  = z3  / 2;
+  int y4  = z4  / 2;
+  int y5  = z5  / 2;
+  int y6  = z6  / 2;
+  int y7  = z7  / 2;
+  int y8  = z8  / 2;
+  int y9  = z9  / 2;
+  int y10 = z10 / 2;
+  int y11 = z11 / 2;
+  int y12 = z12 / 2;
+  int y13 = z13 / 2;
+  int y14 = z14 / 2;
+  int y15 = z15 / 2;
+  int y16 = z16 / 2;
+  int y17 = z17 / 2;
+  int y18 = z18 / 2;
+  int y19 = z19 / 2;
+  int y20 = z20 / 2;
+  int y21 = z21 / 2;
+  int y22 = z22 / 2;
+  int y23 = z23 / 2;
+  int y24 = z24 / 2;
+  int y25 = z25 / 2;
+  int y26 = z26 / 2;
+  int y27 = z27 / 2;
+  int y28 = z28 / 2;
+  int y29 = z29 / 2;
+  int y30 = z30 / 2;
+  int y31 = z31 / 2;
+  int y32 = z32 / 2;
+
+  while (i < max) {
+    int x1  = y1  * 4;
+    int x2  = y2  * 4;
+    int x3  = y3  * 4;
+    int x4  = y4  * 4;
+    int x5  = y5  * 4;
+    int x6  = y6  * 4;
+    int x7  = y7  * 4;
+    int x8  = y8  * 4;
+    int x9  = y9  * 4;
+    int x10 = y10 * 4;
+    int x11 = y11 * 4;
+    int x12 = y12 * 4;
+    int x13 = y13 * 4;
+    int x14 = y14 * 4;
+    int x15 = y15 * 4;
+    int x16 = y16 * 4;
+    int x17 = y17 * 4;
+    int x18 = y18 * 4;
+    int x19 = y19 * 4;
+    int x20 = y20 * 4;
+    int x21 = y21 * 4;
+    int x22 = y22 * 4;
+    int x23 = y23 * 4;
+    int x24 = y24 * 4;
+    int x25 = y25 * 4;
+    int x26 = y26 * 4;
+    int x27 = y27 * 4;
+    int x28 = y28 * 4;
+    int x29 = y29 * 4;
+    int x30 = y30 * 4;
+    int x31 = y31 * 4;
+    int x32 = y32 * 4;
+
+    count = count + x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9;
+    count = count + x10 + x11 + x12 + x13 + x14 + x15 + x16 + x17 + x18 + x19;
+    count = count + x20 + x21 + x22 + x23 + x24 + x25 + x26 + x27 + x28 + x29;
+    count = count + x30 + x31 + x32;
+    
+    i = i + 1;
+  }
+
+  return count;
+}
